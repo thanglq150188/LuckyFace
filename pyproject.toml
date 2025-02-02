@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "luckyface"
+version = "0.1.0"
+description = ""
+authors = ["thanglq150188 <thanglq150188@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.11.0.86"
+openai = "^1.61.0"
+pillow = "^11.1.0"
+customtkinter = "^5.2.2"
+pydantic = "^2.10.6"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
